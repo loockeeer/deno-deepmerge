@@ -33,4 +33,11 @@ console.log(output)
 
 /!\ You cannot merge Arrays, only Objects are currently supported /!\
 
-Documentation can be found at https://doc.deno.land/x/deepmerge/mod.ts
+## Documentation
+
+```ts
+// Merges objects from sources into another (target) object
+function deepmerge(target: any, ...sources: any[]): any
+```
+
+Full doc can be found at https://doc.deno.land/x/deepmerge@VERSION/mod.ts
