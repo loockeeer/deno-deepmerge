@@ -1,6 +1,6 @@
 import { assertEquals, assertThrows } from "https://deno.land/std@0.83.0/testing/asserts.ts";
 
-import deepmerge from "../mod.ts"
+import { deepmerge } from "../mod.ts"
 
 Deno.test("Should return target if sources is empty", () => {
     const target = {
