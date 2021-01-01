@@ -1,3 +1,3 @@
-import deepmerge from "./src/index.ts";
+import { deepmerge } from "./src/index.ts";
 
 export { deepmerge };

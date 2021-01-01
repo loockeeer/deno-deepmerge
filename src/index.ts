@@ -1,8 +1,8 @@
 function isObject(x: any): boolean {
   return (x && typeof x === "object" && !Array.isArray(x));
 }
-
-export default function deepmerge(target: any, ...sources: any[]): any {
+/** Merges objects from sources into another (target) object*/
+export function deepmerge(target: any, ...sources: any[]): any {
   if (!isObject(target)) throw Error("Target must be an object");
   if (!sources.every((el) => isObject(el))) {
     throw Error("Sources must be an Array of Objects");
