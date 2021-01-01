@@ -4,7 +4,7 @@ This is a deno module for merging two objects/array deeply. This is NOT the same
 ## How to use
 
 ```ts
-import deepmerge from "https://deno.land/x/deepmerge@1.0.0/mod.ts"
+import { deepmerge } from "https://deno.land/x/deepmerge@1.0.0/mod.ts"
 
 const a = {
     foo: {
