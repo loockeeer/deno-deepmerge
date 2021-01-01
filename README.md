@@ -32,3 +32,5 @@ console.log(output)
 ```
 
 /!\ You cannot merge Arrays, only Objects are currently supported /!\
+
+Documentation can be found at https://doc.deno.land/x/deepmerge/mod.ts
