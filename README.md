@@ -18,7 +18,7 @@ const b = {
     }
 }
 
-const output = deepmerge(a, b)
+const output = deepmerge(a, b) // You can even merge three or 10, maybe 100 objects !
 
 console.log(output)
 /*
